@@ -26,7 +26,7 @@ int main()
 
 	Player player(&playerTexture, sf::Vector2u(3, 9), 0.3f, 500.0f, 200.0f); //un'istanza di un'animazione
 
-	std::vector<Platform> platforms; //crea un vettore che contiene tutte le platform, il quale serve per evitare di scrivere la collisione con
+	std::vector<Platform> platforms; //crea un vettore che contiene tutte le platform, il quale serve per evitare di scrivere la collisione con SFFADASFAS
 	//il player per ogni singola tipologia di platform
 
 	platforms.push_back(Platform(nullptr, sf::Vector2f(400.0f, 200.0f), sf::Vector2f(500.0f, 200.0f)));
